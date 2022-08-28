@@ -1,16 +1,14 @@
-# helloworld
+# MySecrets
 
-A new Flutter project.
+Store all your secrets locally
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Objective of this project is to maintain all your secrets in the phone/tablet. What happens in the phone, stays in the phone
 
-A few resources to get you started if this is your first Flutter project:
+To start with we'll have a high level classification/segmentation and then all the finer details will be in the details section.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- We should be able to add as many segmentation in home page, navigate into details page for more details. Like segments page, you should be able to add more details here as well
+- All information will be stored in a local sqlite DB
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+We'll add more capabilities as we move along.
