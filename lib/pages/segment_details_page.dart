@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class DetailsPage extends StatelessWidget {
+class SegemntDetailsPage extends StatelessWidget {
   final String selectedTitle;
-  const DetailsPage({required this.selectedTitle});
+  const SegemntDetailsPage({required this.selectedTitle});
   // const DetailsPage({Key? key}) : super(key: key);
 
   @override

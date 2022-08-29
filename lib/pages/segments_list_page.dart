@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:helloworld/pages/detailspage.dart';
+import 'package:helloworld/pages/segment_details_page.dart';
 
-class ListViewHomePage extends StatelessWidget {
-  const ListViewHomePage({Key? key}) : super(key: key);
+class SegmentsListPage extends StatelessWidget {
+  const SegmentsListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class ListViewHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const DetailsPage(
+                                builder: (context) => const SegemntDetailsPage(
                                     selectedTitle: "Financial")))
                       })),
           Card(
@@ -40,7 +40,7 @@ class ListViewHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const DetailsPage(
+                                builder: (context) => const SegemntDetailsPage(
                                     selectedTitle: "Entertainment")))
                       })),
           Card(
@@ -56,7 +56,7 @@ class ListViewHomePage extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) =>
-                                    const DetailsPage(selectedTitle: "Work")))
+                                    const SegemntDetailsPage(selectedTitle: "Work")))
                       })),
           Card(
               child: InkWell(
@@ -69,8 +69,8 @@ class ListViewHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) =>
-                                    const DetailsPage(selectedTitle: "Family")))
+                                builder: (context) => const SegemntDetailsPage(
+                                    selectedTitle: "Family")))
                       })),
           Card(
               child: InkWell(
@@ -84,7 +84,7 @@ class ListViewHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const DetailsPage(
+                                builder: (context) => const SegemntDetailsPage(
                                     selectedTitle: "Parents")))
                       })),
           Card(
@@ -99,7 +99,7 @@ class ListViewHomePage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const DetailsPage(
+                                builder: (context) => const SegemntDetailsPage(
                                     selectedTitle: "Utility")))
                       })),
           Card(
@@ -109,7 +109,7 @@ class ListViewHomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                       builder: (context) =>
-                          const DetailsPage(selectedTitle: "Temporary")))
+                          const SegemntDetailsPage(selectedTitle: "Temporary")))
             },
             child: const ListTile(
               title: Text("Temporary"),
